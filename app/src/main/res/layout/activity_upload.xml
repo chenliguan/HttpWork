@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    tools:context="com.guan.o2o.activity.UploadActivity">
+
+    <RelativeLayout
+        android:id="@id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/DIMEN_56PX"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/DIMEN_24PX"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/DIMEN_20PX"
+            android:src="@mipmap/bg_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/upload_local"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/TEXT_SIZE_22SP" />
+    </RelativeLayout>
+
+    <com.guan.o2o.view.CircleImageView
+        android:id="@+id/iv_head"
+        android:layout_width="@dimen/DIMEN_140PX"
+        android:layout_height="@dimen/DIMEN_140PX"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_head"
+        app:border_width="2dp"
+        app:border_color="@color/main_blue" />
+
+    <Button
+        android:id="@+id/btn_upload_album"
+        style="@style/ButtonTheme"
+        android:layout_marginBottom="@dimen/DIMEN_100PX"
+        android:text="@string/upload_album" />
+
+    <Button
+        android:id="@+id/btn_upload_photo"
+        style="@style/ButtonTheme"
+        android:text="@string/upload_photo" />
+
+</RelativeLayout>
