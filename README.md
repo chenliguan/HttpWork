@@ -5,5 +5,5 @@
 
 图片效果：
 
-![](https://github.com/chenliguan/HttpWork/raw/app/src/main/res/mipmap-hdpi/bg_first.png
+![image](https://github.com/chenliguan/HttpWork/raw/master/app/src/main/res/mipmap-hdpi/bg_first.png
 
