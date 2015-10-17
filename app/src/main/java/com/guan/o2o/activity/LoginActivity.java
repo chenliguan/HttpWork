@@ -1,8 +1,6 @@
 package com.guan.o2o.activity;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -10,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.guan.o2o.R;
@@ -18,11 +15,7 @@ import com.guan.o2o.common.Contant;
 import com.guan.o2o.exception.ServiceRulesException;
 import com.guan.o2o.service.UserService;
 import com.guan.o2o.service.UserServiceImpl;
-import com.guan.o2o.utils.RegularExpressUtil;
 import com.guan.o2o.utils.SharedPreferenceUtil;
-
-import org.apache.http.client.HttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.lang.ref.WeakReference;
 
